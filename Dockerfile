@@ -1,6 +1,6 @@
-FROM sphinxdoc/sphinx:2.4.4
+FROM zhaoweiguo/action-sphinx-plantuml
 
-LABEL "maintainer"="Ammar Askar <ammar@ammaraskar.com>"
+LABEL "maintainer"="zhaoweiguo <admin@zhaoweiguo.com>"
 
 ADD entrypoint.py /entrypoint.py
 ADD sphinx_action /sphinx_action
